@@ -1,4 +1,4 @@
 ### Name
 ouyang yang
-### educational background
+### Educational background
 Shanghaitech University 
