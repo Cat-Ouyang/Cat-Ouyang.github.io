@@ -1,4 +1,6 @@
-### Name
-ouyang yang
-### Educational background
-Shanghaitech University 
+### Personal Information
+Name: Yang Ouyang
+
+Educational Background: Bachelor
+
+E-mail: ouyy@shanghaitech.edu.cn
