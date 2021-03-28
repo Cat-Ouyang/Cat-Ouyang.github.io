@@ -9,5 +9,7 @@ E-mail: ouyy@shanghaitech.edu.cn
 Sep 2017 – Jun 2021   Bachelor, School of Information Science and Technology, ShanghaiTech University
 
 ### Hobbies
-Listening to music
 Sports
+
+
+Listening to music
