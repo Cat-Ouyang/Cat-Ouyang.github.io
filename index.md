@@ -11,5 +11,9 @@ Sep 2017 – Jun 2021   Bachelor, School of Information Science and Technology, 
 ### Hobbies
 Sports
 
-
 Listening to music
+
+Food
+
+
+
