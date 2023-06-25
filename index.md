@@ -8,11 +8,6 @@ machine learning models by developing scalable visual interfaces and interpretab
 
 ## Selected Publications
 
-## Hobbies
-* Listening to music
-* Cat
-* Food
-* Sports
 
 ## For more information
 More info about me can be found in [CV]().
