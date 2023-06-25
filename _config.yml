@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : ""
+title                    : "Ouyang"
 title_separator          : "-"
 name                     : &name "Yang Ouyang"
 description              : &description "Researcher in ShanghaiTech, Shanghai, China"
