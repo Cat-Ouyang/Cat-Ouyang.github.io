@@ -1,4 +1,3 @@
-# Yang Ouyang
 This is Yang Ouyang's personal [homepage](https://ouyang007.github.io/).
 
 ## A short introduction
