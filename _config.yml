@@ -85,11 +85,11 @@ author:
   bio              : "Researcher in ShanghaiTech"
   location         : "Shanghai, China"
   employer         :
-  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=4iVouPYAAAAJ&hl=en"
-  email            : "ze.jiang@hotmail.com"
-  researchgate     : "https://www.researchgate.net/profile/Ze_Jiang3"
-  publons          : "https://publons.com/researcher/3963266/ze-jiang/"
+  pubmed           : #""
+  googlescholar    : ""
+  email            : "ouyy@shanghaitech.com"
+  researchgate     : ""
+  publons          : ""
   uri              : 
   bitbucket        :
   codepen          :
@@ -103,18 +103,18 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "zejiang"
+  linkedin         : ""
   orcid            : "http://orcid.org/0000-0002-3472-0829"
   pinterest        :
   soundcloud       :
   stackoverflow    : #"http://stackoverflow.com/users/123456/username"
   steam            :
   tumblr           :
-  twitter          : "ZeJiang3"
+  twitter          : ""
   vine             :
   weibo            :
   xing             :
-  youtube          : "UCDgVmJEzD5czbTlTdVVewKA"
+  youtube          : ""
   wikipedia        :
       
 # Reading Files
