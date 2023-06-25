@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ze Jiang"
+title                    : "Yang Ouyang"
 title_separator          : "-"
-name                     : &name "Ze Jiang"
-description              : &description "Researcher in WRC@UNSW, Sydney, Australia"
-url                      : https://zejiang-unsw.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Yang Ouyang"
+description              : &description "Researcher in ShanghaiTech, Shanghai, China"
+url                      : https://ouyang007.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "zejiang-unsw.github.io"
+repository               : "ouyang007.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,10 +80,10 @@ analytics:
 
 # Site Author
 author: 
-  name             : "Ze Jiang"
+  name             : "Yang Ouyang"
   avatar           : "profile.jpg"
-  bio              : "Researcher in WRC@UNSW, specialised in statistical hydrology"
-  location         : "Sydney, Australia"
+  bio              : "Researcher in ShanghaiTech"
+  location         : "Shanghai, China"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=4iVouPYAAAAJ&hl=en"
@@ -97,7 +97,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "zejiang-unsw"
+  github           : "ouyang-007"
   google_plus      :
   keybase          :
   instagram        :
