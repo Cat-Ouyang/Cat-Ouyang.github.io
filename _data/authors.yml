@@ -20,8 +20,8 @@ Name2 Name2:
 Ze Jiang:
   name             : "Yang Ouyang"
   avatar           : "profile.png"
-  bio              : "Ph.D. Candidate @UNSW, expert in statistical hydrology"
-  location         : "Sydney, Australia"
+  bio              : ""
+  location         : ""
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
