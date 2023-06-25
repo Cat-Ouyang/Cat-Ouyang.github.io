@@ -1,25 +1,25 @@
 # main links links
 main:
   - title: "Publications"
-    url: /publications/
+#    url: /publications/
 
   - title: "Talks"
-    url: /talks/     
+#    url: /talks/
     
   - title: "Projects"
-    url: /projects/
+#    url: /projects/
 
   - title: "Software"
-    url: /software/
+#    url: /software/
     
   - title: "Teaching"
-    url: /teaching/   
+#    url: /teaching/
     
   - title: "Blog"
-    url: /year-archive/
+    url: //
     
   - title: "CV"
-    url: /cv/
+    url: //
 
   # - title: "Group"
   #   url: /people/
