@@ -183,9 +183,6 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
   software:
     output: true
     permalink: /:collection/:path/
