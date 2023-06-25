@@ -2,13 +2,9 @@
 This is Yang Ouyang's personal [homepage](https://ouyang007.github.io/).
 
 ## A short introduction
-I am an engineer, hydro-climatologist and researcher. My research focuses on drought detection and attribution, as well as prediction using GCM simulations. I mainly use statistical tools to carry out my research works.
-
-PROFILE:
-* Highly self-motivated researcher with demonstrated research expertise modeling hydro-climatology processes. 
-* Strong interpersonal skills with a good sense of teamwork.
-* Programming Skills: R, C/C++, and Python in both Unix and Windows environments.
-* Rich experience in modeling and GIS, using MIKE, SWMM, DSSAT, and QGIS.
+I am currently pursuing my Ph.D. degree at the School of Information Science and Technology, ShanghaiTech University. I received his B.S. degree from ShanghaiTech University. My research interests include high‑dimensional data visualization,
+eXplainable Artificial Intelligence (XAI), and visual analytics. My research goal is to support people in understanding high‑dimensional data and
+machine learning models by developing scalable visual interfaces and interpretable techniques.
 
 
 ## Selected Journal Publications
