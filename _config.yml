@@ -7,18 +7,19 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ouyang"
+title                    : "Ze Jiang"
 title_separator          : "-"
-name                     : &name "Ouyang"
-description              : &description "Researcher in ShanghaiTech"
-url                      : https://ouyang007.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Ze Jiang"
+description              : &description "Researcher in WRC@UNSW, Sydney, Australia"
+url                      : https://zejiang-unsw.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "ouyang007.github.io"
+repository               : "zejiang-unsw.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
+talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -78,44 +79,44 @@ analytics:
 
 
 # Site Author
-author:
-  name             : "Yang Ouyang"
-  avatar           : "/assets/img/22.jpg"
-  bio              : "Researcher in ShanghaiTech, specialised in Visualization"
-  location         : "Beijing, China"
+author: 
+  name             : "Ze Jiang"
+  avatar           : "profile.jpg"
+  bio              : "Researcher in WRC@UNSW, specialised in statistical hydrology"
+  location         : "Sydney, Australia"
   employer         :
-  pubmed           : #""
-  googlescholar    : ""
-  email            : "ouyy@shanghaitech.com"
-  researchgate     : ""
-  publons          : ""
-  uri              :
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : "https://scholar.google.com/citations?user=4iVouPYAAAAJ&hl=en"
+  email            : "ze.jiang@hotmail.com"
+  researchgate     : "https://www.researchgate.net/profile/Ze_Jiang3"
+  publons          : "https://publons.com/researcher/3963266/ze-jiang/"
+  uri              : 
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : ""
+  github           : "zejiang-unsw"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : ""
-  orcid            : ""
+  linkedin         : "zejiang"
+  orcid            : "http://orcid.org/0000-0002-3472-0829"
   pinterest        :
   soundcloud       :
   stackoverflow    : #"http://stackoverflow.com/users/123456/username"
   steam            :
   tumblr           :
-  twitter          : ""
+  twitter          : "ZeJiang3"
   vine             :
   weibo            :
   xing             :
-  youtube          : ""
+  youtube          : "UCDgVmJEzD5czbTlTdVVewKA"
   wikipedia        :
-
+      
 # Reading Files
 include:
   - .htaccess
@@ -172,7 +173,99 @@ kramdown:
   enable_coderay: false
 
 
-
+# Collections
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
+  software:
+    output: true
+    permalink: /:collection/:path/
+  people:
+    output: true
+    permalink: /:collection/:path/
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
+  # _software
+  - scope:
+      path: ""
+      type: software
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _people
+  - scope:
+      path: ""
+      type: people
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
 # Sass/SCSS
 sass:
   sass_dir: _sass
