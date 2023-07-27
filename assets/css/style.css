@@ -540,7 +540,7 @@ main {
   background: var(--bg-gradient-jet);
   border-radius: inherit;
   z-index: -1;
-  background-color: cadetblue;
+  background-color: #999966;
 }
 
 .service-icon-box { margin-bottom: 10px; }
@@ -1836,7 +1836,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-bottom: 0;
     padding-top: 60px;
     z-index: 1;
-    background-color: darkslategray;
+    background-color: #663366;
   }
 
   .sidebar-info { flex-direction: column; }
