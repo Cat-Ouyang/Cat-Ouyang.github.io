@@ -173,6 +173,7 @@ article {
   padding: 15px;
   box-shadow: var(--shadow-1);
   z-index: 1;
+  background-color: darkslategray;
 }
 
 .separator {
@@ -319,6 +320,7 @@ main {
   max-height: 112px;
   overflow: hidden;
   transition: var(--transition-2);
+  background-color: darkslategray
 }
 
 .sidebar.active { max-height: 405px; }
@@ -538,6 +540,7 @@ main {
   background: var(--bg-gradient-jet);
   border-radius: inherit;
   z-index: -1;
+  background-color: cadetblue;
 }
 
 .service-icon-box { margin-bottom: 10px; }
@@ -1816,6 +1819,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     min-width: 75%;
     width: 75%;
     margin: 0;
+
   }
 
 
@@ -1832,6 +1836,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-bottom: 0;
     padding-top: 60px;
     z-index: 1;
+    background-color: darkslategray;
   }
 
   .sidebar-info { flex-direction: column; }
