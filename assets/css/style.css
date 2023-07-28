@@ -1886,3 +1886,13 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+
+.service-item::before {
+  background-color: #a39491;
+}
+/*@media (min-width: 1250px) {*/
+/*  .sidebar {*/
+/*    background-color: white;*/
+/*  }*/
+/*}*/
