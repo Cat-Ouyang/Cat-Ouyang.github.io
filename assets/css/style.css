@@ -168,7 +168,7 @@ body { background: #ffffff; }
 .sidebar,
 article {
   background: var(--eerie-black-2);
-  border: 1px solid var(--jet);
+  border: 0px solid var(--jet);
   border-radius: 20px;
   padding: 15px;
   box-shadow: var(--shadow-1);
@@ -252,7 +252,8 @@ article.active {
   left: 0;
   width: 30px;
   height: 3px;
-  background: var(--text-gradient-yellow);
+  /*background: var(--text-gradient-yellow);*/
+  background-color: #b5594b;
   border-radius: 3px;
 }
 
@@ -463,7 +464,7 @@ main {
   width: 100%;
   background: hsla(240, 1%, 17%, 0.75);
   backdrop-filter: blur(10px);
-  border: 1px solid var(--jet);
+  border: 0px solid var(--jet);
   border-radius: 12px 12px 0 0;
   box-shadow: var(--shadow-2);
   z-index: 5;
@@ -663,7 +664,7 @@ main {
   position: relative;
   padding: 15px;
   margin: 15px 12px;
-  border: 1px solid var(--jet);
+  border: 0px solid var(--jet);
   border-radius: 14px;
   box-shadow: var(--shadow-5);
   transform: scale(1.2);
@@ -893,7 +894,7 @@ main {
   align-items: center;
   width: 100%;
   padding: 12px 16px;
-  border: 1px solid var(--jet);
+  border: 0px solid var(--jet);
   border-radius: 14px;
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
@@ -907,7 +908,7 @@ main {
   top: calc(100% + 6px);
   width: 100%;
   padding: 6px;
-  border: 1px solid var(--jet);
+  border: 0px solid var(--jet);
   border-radius: 14px;
   z-index: 2;
   opacity: 0;
@@ -1131,7 +1132,7 @@ main {
   width: 100%;
   border-radius: 16px;
   margin-bottom: 30px;
-  border: 1px solid var(--jet);
+  border: 0px solid var(--jet);
   overflow: hidden;
 }
 
@@ -1160,7 +1161,7 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-400);
   padding: 13px 20px;
-  border: 1px solid var(--jet);
+  border: 0px solid var(--jet);
   border-radius: 14px;
   outline: none;
 }
@@ -1836,7 +1837,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-bottom: 0;
     padding-top: 60px;
     z-index: 1;
-    background-color: #663366;
+    /*background-color: #663366;*/
   }
 
   .sidebar-info { flex-direction: column; }
@@ -1888,11 +1889,21 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 
-.service-item::before {
-  background-color: #a39491;
-}
+
 /*@media (min-width: 1250px) {*/
 /*  .sidebar {*/
 /*    background-color: white;*/
 /*  }*/
 /*}*/
+
+
+.sidebar,
+article {
+  background-color: #364a62;
+}
+.sidebar {
+  background-color: #13626d;
+}
+.service-item::before {
+  background-color: #726286;
+}
