@@ -538,10 +538,10 @@ main {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--bg-gradient-jet);
+  /* background: var(--bg-gradient-jet); */
   border-radius: inherit;
   z-index: -1;
-  background-color: #999966;
+  /* background-color: #999966; */
 }
 
 .service-icon-box { margin-bottom: 10px; }
@@ -1905,5 +1905,6 @@ article {
   background-color: #13626d;
 }
 .service-item::before {
-  background-color: #726286;
+  /* background-color: #726286; */
+  background-color: #b8cad2;
 }
